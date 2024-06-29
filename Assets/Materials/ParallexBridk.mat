@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5064979915445162262
+--- !u!114 &-4358217739237555000
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BrikRed
-  m_Shader: {fileID: -6465566751694194690, guid: 2d1b2f1b136a047ddbd5230aa708ba13, type: 3}
+  m_Name: ParallexBridk
+  m_Shader: {fileID: -6465566751694194690, guid: 2ee8e801032fe4502ae85ddbbc3ae106, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -58,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7808980c3736840f195852b67c13f57d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -101,34 +101,30 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Edge_Threshold: 0.25
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _IceScale: 500
-    - _IceSpeed: 0.22
-    - _IceStrength: 1
-    - _Light: 3.17
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _SmokeScale: 20
+    - _Scale: 1
+    - _ScaleFactor: 2
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
     - _WorkflowMode: 1
+    - _XCount: 0.22
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.9528302, g: 0.43628758, b: 0.022472408, a: 1}
-    - _EdgeColor: {r: 0.17221434, g: 0.29915997, b: 0.8113208, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _IceDirection: {r: 0.1, g: 0.1, b: 0, a: 0}
-    - _IceSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 10, g: 2, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _SpriteSize: {r: 10, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
